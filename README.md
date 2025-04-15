@@ -43,8 +43,9 @@ App for managing a list of patients using `ArrayList` and sorting them by name o
 
 ---
 
-### 📊 8. Word Frequency Analyzer – Producer-Consumer with BlockingQueue(AppFindWords)
+### 📊 6. Word Frequency Analyzer – Producer-Consumer with BlockingQueue(AppFindWords)
 A multithreaded Java application that scans `.txt` files in a directory and identifies the top 10 most frequent words.  
+🔗 [View separate repository](https://github.com/JaNok2/Zad1Zpo) 
 - Implements **Producer–Consumer pattern** using `LinkedBlockingQueue`  
 - **Producer** traverses directories using `Files.walkFileTree` and queues text files  
 - **Consumers** analyze word frequency with `Streams` and `Collectors`  
