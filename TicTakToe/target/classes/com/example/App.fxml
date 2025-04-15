@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ClcTicTakToe">
+    <Label fx:id="turnLabel" text="Turn: X"/>
+    
+    <GridPane alignment="CENTER" hgap="20" vgap="20">
+        <Button fx:id="button1" text="" GridPane.columnIndex="0" GridPane.rowIndex="0" minWidth="75" minHeight="75" />
+        <Button fx:id="button2" text="" GridPane.columnIndex="1" GridPane.rowIndex="0" minWidth="75" minHeight="75" />
+        <Button fx:id="button3" text="" GridPane.columnIndex="2" GridPane.rowIndex="0" minWidth="75" minHeight="75" />
+        <Button fx:id="button4" text="" GridPane.columnIndex="0" GridPane.rowIndex="1" minWidth="75" minHeight="75" />
+        <Button fx:id="button5" text="" GridPane.columnIndex="1" GridPane.rowIndex="1" minWidth="75" minHeight="75" />
+        <Button fx:id="button6" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" minWidth="75" minHeight="75" />
+        <Button fx:id="button7" text="" GridPane.columnIndex="0" GridPane.rowIndex="2" minWidth="75" minHeight="75" />
+        <Button fx:id="button8" text="" GridPane.columnIndex="1" GridPane.rowIndex="2" minWidth="75" minHeight="75" />
+        <Button fx:id="button9" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" minWidth="75" minHeight="75" />
+    </GridPane>
+    
+    <Button fx:id="resetButton" text="Restart Game" onAction="#handleResetAction" visible="false" />
+</VBox>
